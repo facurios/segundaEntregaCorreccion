@@ -1,4 +1,9 @@
-METODOS PARA PRODUCTOS
+INSTRUCCIONES PARA PROBAR LA APLICACION
+
+INICIALIZAR la Base de datos mongo del repositorio ubicada en ./database/mongodb
+
+
+METODOS PARA PRUEBA DE PRODUCTOS
 
 get: localhost:3000/api/productos  //trae todos los productos
 
@@ -20,7 +25,7 @@ put:  localhost:3000/api/productos/:id  //modifica algun producto existente
 
 delete: localhost:3000/api/productos/:id   //elimina el producto segun el id 
 
-METODOS PARA CARRITOS
+METODOS PARA PRUEBA DE CARRITOS
 
 get: localhost:3000/api/carrito/:id //devuelve el carrito segun el id
 
